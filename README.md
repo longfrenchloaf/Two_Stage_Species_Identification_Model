@@ -120,5 +120,5 @@ To run use: node database.js
 10. PIL
 11. time
 
-## TwoStage_Predictions_DB.py
+### TwoStage_Predictions_DB.py
 This Python script processes images of wildlife captured by camera traps, performs object detection using the YOLOv8 model, and classifies species using a pretrained ResNet50 model. It extracts metadata such as date, time, and temperature from the images using OCR (Tesseract), then stores the relevant information (species, site, date, time, temperature) in a MySQL database. Additionally, detected objects are cropped and saved for further analysis. The script handles database connections, performs preprocessing on images, and ensures data integrity while processing multiple images.
